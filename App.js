@@ -35,15 +35,7 @@ export default function App() {
       return;
     }
 
-  const calcDistance = ()=>{
-    const calcDist = getDistance(
-          {latitude:64.97425289540878, longitude: 25.60354793332854},
-          {latitude:latitude, longitude: longitude}, 
-        )
-    setDistance( calcDist );
-  }
-
-  return (
+    return (
     <View style={styles.container}>
     </View>
   );
